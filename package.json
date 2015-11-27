@@ -1,0 +1,19 @@
+{
+  "name": "tape",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-build": "webpack --config webpack.test.config.js --watch",
+    "testem": "testem"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "~6.2.1",
+    "babel-loader": "~6.2.0",
+    "tapes": "^2.0.0",
+    "testem": "~0.9.11",
+    "webpack": "~1.12.9"
+  }
+}
